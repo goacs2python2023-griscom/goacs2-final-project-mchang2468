@@ -247,7 +247,7 @@ for i in range(len(sortedPpgList)):
 
 for i in range(len(names)):
     a.vbar(i,1.1, ppg[i], 0)
-    a.text(i, 0, [names[i]], math.pi/2, text_font_size = "10pt", text_color = "white")
+    a.text(i, 0, [names[i]], math.pi/2, text_font_size = "10pt", text_color = "orange")
 
 # Rebounds Per Game
 rpgDict = {}
@@ -266,7 +266,7 @@ for i in range(len(sortedRpgList)):
 
 for i in range(len(names)):
     b.vbar(i,1.1, rpg[i], 0)
-    b.text(i, 0, [names[i]], math.pi/2, text_font_size = "10pt", text_color = "white")
+    b.text(i, 0, [names[i]], math.pi/2, text_font_size = "10pt", text_color = "orange")
 
 # Assists Per Game
 apgDict = {}
@@ -285,7 +285,7 @@ for i in range(len(sortedApgList)):
 
 for i in range(len(names)):
     c.vbar(i,1.1, apg[i], 0)
-    c.text(i, 0, [names[i]], math.pi/2, text_font_size = "10pt", text_color = "white")
+    c.text(i, 0, [names[i]], math.pi/2, text_font_size = "10pt", text_color = "orange")
 
 # Field Goal Percentage
 fgpDict = {}
@@ -304,7 +304,7 @@ for i in range(len(sortedFgpList)):
 
 for i in range(len(names)):
     d.vbar(i,1.1, fgp[i], 0)
-    d.text(i, 0, [names[i]], math.pi/2, text_font_size = "10pt", text_color = "white")
+    d.text(i, 0, [names[i]], math.pi/2, text_font_size = "10pt", text_color = "orange")
 
 # Three Point Percentage
 tppDict = {}
@@ -324,7 +324,7 @@ for i in range(len(sortedTppList)):
 
 for i in range(len(names)):
     e.vbar(i,1.1, tpp[i], 0)
-    e.text(i, 0, [names[i]], math.pi/2, text_font_size = "10pt", text_color = "white")
+    e.text(i, 0, [names[i]], math.pi/2, text_font_size = "10pt", text_color = "orange")
 
 # Free Throw Percentage
 ftpDict = {}
@@ -343,7 +343,7 @@ for i in range(len(sortedFtpList)):
 
 for i in range(len(names)):
     f.vbar(i,1.1, ftp[i], 0)
-    f.text(i, 0, [names[i]], math.pi/2, text_font_size = "10pt", text_color = "white")
+    f.text(i, 0, [names[i]], math.pi/2, text_font_size = "10pt", text_color = "orange")
 
 
 show(row(children=[a, b, c, d, e, f], sizing_mode="scale_width"))
